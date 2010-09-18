@@ -1,0 +1,413 @@
+/*
+Theme Name: AllColoursAreBeautiful Theme
+Theme URI: http://acab.muc.ccc.de
+Description: Theme for the acab project website
+Version: 0.1
+Author: Franz Pletz, Raffael Mancini
+Author URI: http://phidev.org, http://hcl-club.lu/~enigma
+*/
+
+@font-face 
+{
+    font-family: topaz;
+    src: url(images/topaz1200dmg.ttf);
+}
+
+@font-face 
+{
+    font-family: topazweb;
+    src: url(images/topaz1200dmg_web.ttf);
+}
+
+* {
+    cursor: url(images/amiga.gif), default;
+}
+
+body {
+    background-color: #051500;
+    width: 100%;
+}
+
+header {
+margin-bottom:20px;
+}
+
+header, footer, nav {
+    background-color: #003300;
+}
+#content .preview,
+#content.act-show
+{		
+    background-color: #004400;
+}
+
+header, body footer, body nav,
+#content .preview,
+#content.act-show
+{		
+    font-family: topaz, "Lucida Console", monospace, Monaco;
+    font-size: 12pt;
+    color: #2B2;
+}
+
+header .widgets {
+    float: right;
+    margin-right: 10px;
+    height: 25px;
+}
+header .widgets p {
+    margin: 37px 0 0 0;
+    background: transparent;
+}
+header .widgets a {
+    background: #003300;
+    display: inline;
+}
+header .widgets img {
+    margin: 0;
+    vertical-align: top;
+    z-index: 50000;
+}
+
+body #wrapper .preview {
+    width: 785px;
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #ccc;
+    text-decoration: none;
+}
+
+li.current_page_item a {
+    color: red;
+}
+
+li.current_page_item a:visited {
+    color: red;
+}
+
+#content {
+    line-height: 130%;
+}
+
+#content p {
+    padding-top: 7px;
+    margin: 0;
+}
+
+#content strong {
+    color: #9f9;
+}
+
+#content em {
+    color: #2d2;
+}
+
+#content ul {
+    margin-top: 15px;
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 15px;
+}
+
+#content ul > li {
+    margin-bottom: 2px;
+}
+
+/*#content ul > li:first-child {
+    margin-bottom: -6px;
+}*/
+
+header h1
+{
+    font-size: 200%;
+    color: #ccc;
+    width: 60%;
+    margin: 0 auto;
+}
+h1
+{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#content h1 a
+{
+    color: #ccc;
+    text-decoration: none;
+    line-height: 1em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    color: #ccc;
+}
+
+#content h2
+{
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+#content h2 a
+{
+    color: #ccc;
+    font-size: 100%;
+    text-decoration: none;
+    line-height: 1em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    color: #ccc;
+}
+
+
+h3
+{
+    margin: 0;
+    font-size: 120%;
+    text-align: center;
+    color: #ccc;
+}
+
+#content h3
+{
+    font-size: 120%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    color: #ccc;
+}
+
+
+#wrapper {
+    width: 985px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #040;
+    overflow: auto;
+    border: 2px solid #040;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+header {
+    width: 985px;
+    float: left;
+    color: #fff;
+    background-color: #030;
+}
+
+header:after {
+  display: block;
+  overflow: hidden;
+  color: #3af;
+  white-space: nowrap;
+  background-color: #030;
+  background-image: url(scanlines.png);
+  content: "-----------------------------------------------------------------------------------------------------------------------------------------------------------------";
+}
+
+span.r {
+    color: #c00;
+}
+
+span.g {
+    color: #0c0;
+}
+
+span.b {
+    color: #3af;
+}
+
+img {
+    border: none;
+}
+
+img.mediaright {
+  margin:0 10px 10px 15px
+}
+img.medialeft {
+  margin:0 15px 10px 10px
+}
+
+aside {
+    display: block;
+    float: left;
+    width: 160px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #030;
+    border: 2px solid #060;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+aside nav:before, aside nav:after {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #f00;
+  background-image: url(scanlines.png);
+  content: "---------------------";
+}
+
+aside li {
+    display: block;
+    padding: 5px;
+}
+
+#content {
+    float: left;
+    width: 785px;
+}
+
+footer {
+    width: 985px;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #030;
+    float: left;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+footer p {
+    color: #666;
+}
+
+footer:before {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #3af;
+  background-image: url(scanlines.png);
+  content: "----------------------------------------------------------------------------------------------------------------------------------";
+}
+
+/* editor styles */
+.aligncenter {
+  display:block;
+  margin: 10px auto;
+}
+.alignright {
+  float: right;
+  margin: 0px 10px 10px 15px;
+}
+.alignleft {
+  float: left;
+  margin: 0px 15px 10px 10px;
+}
+
+/* reservierfnord */
+#content #ppwrapper {
+	border: 1px solid #282828;
+	width: 785px;
+	height: 411px;
+	background-image: url('http://acab.muc.ccc.de/wp-content/uploads/2010/06/pixelpate1.jpg');
+	padding: 0;
+        margin: 0;
+}
+
+
+#content #rowA {
+	top: 77px;
+	left: 104px;
+}
+
+#content #rowB {
+	top: 117px;
+	left: 104px;
+}
+
+#content #rowC {
+	top: 158px;
+	left: 104px;
+}
+
+#content #rowD {
+	top: 197px;
+	left: 104px;
+}
+
+#content #rowLegende {
+        top: 244px;
+        left: 104px;
+}
+#content #rowLegende li {
+  color: black;
+  line-height: 2em;
+}
+#content #ppwrapper .row {
+	position: relative;
+	border: 0px solid green;
+	height: 31px;
+	width: 600px;
+	padding: 0;
+        margin: 0;
+}
+
+#content #ppwrapper .p_emp {
+	height: 31px;
+	width: 17px;
+	border: 0px solid yellow;
+	cursor: pointer;
+}
+
+#content #ppwrapper .p_res {
+	height: 31px;
+	width: 17px;
+	background: orange;
+}
+
+
+#content #ppwrapper .p_bkd {
+	height: 31px;
+	width: 17px;
+	background: red;
+}
+
+#content #ppwrapper ul,#content  #ppwrapper  li {
+	list-style-type: none;
+}
+
+#content #ppwrapper li {
+	margin: 0 3px 0 0;
+	float: left;
+}
+
+#content #ppwrapper .lmrg {
+	margin-right: 12px;
+}
+
+li div.li {
+  display: inline;
+  text-align: right;
+}
+
+.rss li {
+  color: #9f9;
+}
+.rss li a,
+.rss li a:visited,
+.rss li a:hover {
+  margin: 0 0 10px 5px;
+  text-decoration: none;
+  color: #2b2;
+  text-align: left;
+}
+

@@ -1,0 +1,18 @@
+.topbar {
+    margin: 0;
+    padding: 4px;
+    display: block;
+    text-align: right;
+}
+
+#wrapper #content.act-preview,
+#wrapper #content.act-admin,
+#wrapper #content.act-recover,
+#wrapper #content.act-edit 
+{
+   margin: 10px;
+   width: 98%;
+   color: #000;
+   background-color: #fff;
+   padding: 2px;
+}
