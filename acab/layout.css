@@ -313,15 +313,13 @@ footer:before {
   margin: 0px 15px 10px 10px;
 }
 
-/*
- * acabfnord ... should be in plugin
-*/
-
 li div.li {
   display: inline;
   text-align: right;
   padding: 2px;
 }
+
+/* rss stuff for twitter */
 
 .rss li {
   color: #9f9;
