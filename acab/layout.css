@@ -313,90 +313,14 @@ footer:before {
   margin: 0px 15px 10px 10px;
 }
 
-/* reservierfnord */
-#content #ppwrapper {
-	border: 1px solid #282828;
-	width: 785px;
-	height: 411px;
-	background-image: url('http://acab.muc.ccc.de/wp-content/uploads/2010/06/pixelpate1.jpg');
-	padding: 0;
-        margin: 0;
-}
-
-
-#content #rowA {
-	top: 77px;
-	left: 104px;
-}
-
-#content #rowB {
-	top: 117px;
-	left: 104px;
-}
-
-#content #rowC {
-	top: 158px;
-	left: 104px;
-}
-
-#content #rowD {
-	top: 197px;
-	left: 104px;
-}
-
-#content #rowLegende {
-        top: 244px;
-        left: 104px;
-}
-#content #rowLegende li {
-  color: black;
-  line-height: 2em;
-}
-#content #ppwrapper .row {
-	position: relative;
-	border: 0px solid green;
-	height: 31px;
-	width: 600px;
-	padding: 0;
-        margin: 0;
-}
-
-#content #ppwrapper .p_emp {
-	height: 31px;
-	width: 17px;
-	border: 0px solid yellow;
-	cursor: pointer;
-}
-
-#content #ppwrapper .p_res {
-	height: 31px;
-	width: 17px;
-	background: orange;
-}
-
-
-#content #ppwrapper .p_bkd {
-	height: 31px;
-	width: 17px;
-	background: red;
-}
-
-#content #ppwrapper ul,#content  #ppwrapper  li {
-	list-style-type: none;
-}
-
-#content #ppwrapper li {
-	margin: 0 3px 0 0;
-	float: left;
-}
-
-#content #ppwrapper .lmrg {
-	margin-right: 12px;
-}
+/*
+ * acabfnord ... should be in plugin
+*/
 
 li div.li {
   display: inline;
   text-align: right;
+  padding: 2px;
 }
 
 .rss li {
