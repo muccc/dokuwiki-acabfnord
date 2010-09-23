@@ -9,12 +9,12 @@
 
     $navi_items = array( 
     '/' => array( 'title' => 'Start' ),
-    'pixelpate-werden' => array( 'title' => 'Pixelpaten!' ),
-    'installation' => array( 'title' => 'Installation' ),
-    'mitmachen' => array( 'title' => 'Mitmachen' ),
-    'medien' => array( 'title' => 'Medien' ),
-    'kontakt' => array( 'title' => 'Kontakt' ),
-    'presse' => array( 'title' => 'Presse' ),
+    '/pixelpate-werden' => array( 'title' => 'Pixelpaten!' ),
+    '/installation' => array( 'title' => 'Installation' ),
+    '/mitmachen' => array( 'title' => 'Mitmachen' ),
+    '/medien' => array( 'title' => 'Medien' ),
+    '/kontakt' => array( 'title' => 'Kontakt' ),
+    '/presse' => array( 'title' => 'Presse' ),
     );
 
     function tpl_navi_item( $t, $deff ) { 
